@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diego Penaloza | Resume</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f3f4f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #374151;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #93c5fd;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px #ddd;
+        }
+
+        h2 {
+            color: #1f2937;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 8px;
+        }
+
+        .job {
+            margin-bottom: 22px;
+        }
+
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio-item img {
+            display: block;
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .portfolio-item h3 {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .portfolio {
+                grid-template-columns: 1fr;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/diegopenaloza.jpg"
+             alt="Diego Penaloza profile picture"
+             class="profile-picture">
+
+        <h1>Diego Penaloza</h1>
+        <p>UC Riverside Student | Future Lawyer</p>
+        <p>Net ID: dpena042</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is Diego Penaloza, and I am a student at
+                the University of California, Riverside. I am
+                interested in sociology and hope to become a lawyer
+                in the future. I want to understand people's rights
+                and help others. I am a quick learner, work well
+                with others, and always try to improve my skills.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <div class="job">
+                <h3>University of California, Riverside</h3>
+                <p>Undergraduate Student</p>
+                <p>Field of Interest: Sociology</p>
+                <p>Expected Graduation: 2030</p>
+            </div>
+
+            <div class="job">
+                <h3>California Military Institute</h3>
+                <p>High School Diploma</p>
+                <p class="date">Graduated: June 2026</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+
+            <div class="job">
+                <h3>951 Detailing</h3>
+                <p class="date">June 2025 – 2026</p>
+                <ul>
+                    <li>Clean and detail vehicle interiors and exteriors.</li>
+                    <li>Use detailing tools and cleaning products properly.</li>
+                    <li>Pay attention to detail and provide good customer service.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Penaloza Landscaping</h3>
+                <p class="date">July 2024 – 2025</p>
+                <ul>
+                    <li>Help maintain lawns, yards, and outdoor spaces.</li>
+                    <li>Assist with trimming, yard cleanup, and landscaping.</li>
+                    <li>Keep work areas clean and organized.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Alder Creek Gift Baskets</h3>
+                <p class="date">December 2022 – November 2023</p>
+                <ul>
+                    <li>Helped prepare and organize gift baskets.</li>
+                    <li>Kept the work area clean and organized.</li>
+                    <li>Worked with others to complete assigned tasks.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Communication and teamwork</li>
+                <li>Time management and organization</li>
+                <li>Customer service</li>
+                <li>Vehicle detailing</li>
+                <li>Landscaping and lawn maintenance</li>
+                <li>Problem-solving</li>
+                <li>Willingness to learn</li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>My Portfolio</h2>
+            <p>
+                Here are examples related to my vehicle detailing
+                and landscaping experience.
+            </p>
+
+            <div class="portfolio">
+
+                <div class="portfolio-item">
+                    <img src="img/image1.jpg"
+                         alt="First vehicle detailing photo">
+                    <h3>Car Detailing</h3>
+                    <p>Vehicle cleaning and detailing work.</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="img/image2.jpg"
+                         alt="Second vehicle detailing photo">
+                    <h3>Vehicle Care</h3>
+                    <p>Maintaining clean vehicle interiors and exteriors.</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="img/image3.jpg"
+                         alt="Landscaped front yard">
+                    <h3>Lawn Maintenance</h3>
+                    <p>A front yard with a freshly maintained lawn.</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="img/image4.jpg"
+                         alt="Landscaped backyard">
+                    <h3>Landscaping</h3>
+                    <p>A backyard with trimmed shrubs and garden borders.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Net ID: dpena042</p>
+            <p>Email: diegopenaloza633@gmail.com.</p>
+            <p>GitHub: Add your GitHub profile link here.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Diego Penaloza | Resume Website</p>
+    </footer>
+
+</body>
+</html>
